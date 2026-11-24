@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "vodxvisuals",
+  "version": "${version}",
+  "name": "Vodx Visuals",
+  "description": "Client-side visuals: HUD, hit/kill effects, jump circles, trails, China hat, searchable GUI and aim assist.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.vodx.visuals.VodxVisualsClient"] },
+  "mixins": ["vodxvisuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
